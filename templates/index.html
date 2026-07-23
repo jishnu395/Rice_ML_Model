@@ -33,7 +33,7 @@ Predict
 
 <h1 class="result">{{ prediction }}</h1>
 
-<img src="{{ image_path }}" width="350">
+<img src="{{ url_for('static', filename=image_path) }}" width="350">
 
 {% endif %}
 
